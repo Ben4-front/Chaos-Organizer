@@ -3,7 +3,7 @@ import API from './api';
 import CryptoJS from 'crypto-js';
 import JSZip from 'jszip';
 
-const SERVER_URL = 'http://localhost:7070'; 
+const SERVER_URL = 'https://chaos-organizer-backend-fmwn.onrender.com'; 
 const api = new API(SERVER_URL);
 
 const container = document.getElementById('messages-container');
