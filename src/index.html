@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaos Organizer</title>
+</head>
+<body>
+    <div class="app-container">
+        <aside class="sidebar">
+            <h3>Organizer</h3>
+    <div class="search-box">
+        <input type="text" id="search-input" placeholder="🔍 Поиск...">
+    </div>
+            <ul class="categories">
+                <li data-filter="all" class="active">Все</li>
+                <li data-filter="image">Изображения</li>
+                <li data-filter="video">Видео</li>
+                <li data-filter="audio">Аудио</li>
+                <li data-filter="favorites">Избранное</li>
+            </ul>
+                <div class="sidebar-controls">
+        <button id="export-btn" class="control-btn">⬇ Экспорт</button>
+        <button id="import-btn" class="control-btn">⬆ Импорт</button>
+        <input type="file" id="import-input" accept=".json" hidden>
+        </aside>
+
+        <main class="chat-area">
+            <div id="pinned-container" class="pinned-container hidden">
+                <div class="pin-icon">📌</div>
+                <div class="pin-content">Закрепленное сообщение</div>
+                <div class="pin-remove">✕</div>
+            </div>
+
+            <div id="messages-container" class="messages-container">
+            </div>
+
+            <div class="input-area">
+                <input type="file" id="file-input" multiple hidden>
+                <button id="attach-btn" class="btn">📎</button>
+                <button id="geo-btn" class="btn">📍</button>
+                <button id="encrypt-btn" class="btn" title="Режим шифрования">🔒</button>
+                <button id="emoji-btn" class="btn" title="Смайлы и Стикеры">😀</button> 
+                <input type="text" id="message-input" placeholder="Введите сообщение...">
+                <button id="record-btn" class="btn">🎤</button>
+                <button id="send-btn" class="btn">➤</button>
+            </div>
+                <div id="emoji-popup" class="emoji-popup hidden">
+        <div class="popup-tabs">
+            <span class="tab active" data-tab="emoji">Emoji</span>
+            <span class="tab" data-tab="stickers">Stickers</span>
+        </div>
+        <div class="popup-content" id="emoji-list">
+        </div>
+        <div class="popup-content hidden" id="sticker-list">
+        </div>
+    </div>
+</div>
+            
+            <div id="drag-overlay" class="drag-overlay hidden">Перетащите файлы сюда</div>
+        </main>
+    </div>
+</body>
+</html>
