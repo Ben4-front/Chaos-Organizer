@@ -1,7 +1,7 @@
 Дипломное задание к курсу «Продвинутый JavaScript в браузере». Chaos Organizer
 
 Ссылка на проект: https://github.com/Ben4-front/Chaos-Organizer/
-[![Build and Deploy](https://github.com/Ben4-front/WebWorkers-ServiceWorkers/actions/workflows/web.yml/badge.svg)](https://github.com/Ben4-front/Chaos-Organizer/actions/workflows/web.yml)
+[![Build and Deploy](https://github.com/Ben4-front/Chaos-Organizer/actions/workflows/web.yml/badge.svg)](https://github.com/Ben4-front/Chaos-Organizer/actions/workflows/web.yml)
 Легенда
 Мы всё больше привыкаем к неформальному формату организации информации, где ключевое — не структура, а удобство и поиск. Примеры: Slack, Telegram, WhatsApp, вплоть до помощников типа Siri или Алиса.
 
